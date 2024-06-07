@@ -78,7 +78,7 @@ The project is organized into the following main folders and files:
 
 ## Functionality and exemple tests
 
-# Array
+## Array
 
     Add Elements to Array:
         When prompted, enter the size of the array (e.g., 5).
@@ -100,7 +100,7 @@ The project is organized into the following main folders and files:
         Value: 50
         
 
-# Linked List
+## Linked List
 
     Add Elements to Linked List:
         Choose the option to add an element.
@@ -141,7 +141,7 @@ The project is organized into the following main folders and files:
         Last Node: World
         Elements: World 
 
-# Stack
+## Stack
 
     Push Elements onto Stack:
         Choose the option to push an element.
