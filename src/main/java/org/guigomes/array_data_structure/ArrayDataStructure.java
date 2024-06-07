@@ -1,4 +1,4 @@
-package org.guigomes.classes;
+package org.guigomes.array_data_structure;
 
 import org.guigomes.interfaces.DataStructure;
 
@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ArrayDataStructure implements DataStructure {
 
     @Override
-    public void getInfos() {
+    public void interact() {
 
         Scanner scanner = new Scanner(System.in);
 

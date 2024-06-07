@@ -1,6 +1,6 @@
 package org.guigomes;
 
-import org.guigomes.classes.DataStructureFactory;
+import org.guigomes.data_structure_factory.DataStructureFactory;
 import org.guigomes.interfaces.DataStructure;
 
 import java.util.Scanner;
@@ -23,14 +23,13 @@ public class Main {
             System.out.println("0 - Exit");
 
             System.out.print("Select an option: ");
-            System.out.println("\n");
             opt = Integer.parseInt(scanner.nextLine());
 
             try {
                 DataStructure dataStructure = DataStructureFactory.getDataStructure(opt);
 
                 if (dataStructure != null) {
-                    dataStructure.getInfos();
+                    dataStructure.interact();
                 } else if (opt == 0){
                     System.out.println("Exiting of the application.");
                 } else {
