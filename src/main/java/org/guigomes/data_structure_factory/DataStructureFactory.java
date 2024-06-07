@@ -25,7 +25,9 @@ public class DataStructureFactory {
                 stackDataStructure.interact();
                 return stackDataStructure;
             case 4:
-                return new QueueDataStructure();
+                QueueDataStructure QueueDataStructure = new QueueDataStructure();
+                QueueDataStructure.interact();
+                return QueueDataStructure;
             case 5:
                 return new TreeDataStructure();
             case 6:
