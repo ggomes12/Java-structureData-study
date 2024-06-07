@@ -23,7 +23,7 @@ public class Main {
             System.out.println("0 - Exit");
 
             System.out.print("Select an option: ");
-            
+            System.out.println("\n");
             opt = Integer.parseInt(scanner.nextLine());
 
             try {
